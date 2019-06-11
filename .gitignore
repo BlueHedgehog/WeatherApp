@@ -1,6 +1,13 @@
 # Compiled class file
 *.class
 
+
+
+/app/build
+/app/.idea/
+/app/app.iml
+
+
 # Log file
 *.log
 
