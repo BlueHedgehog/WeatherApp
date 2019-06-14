@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">WeatherApp</string>
     <string name="title_activity_detail">DetailActivity</string>
+
+    <string-array name="spinner_list_item_array">
+        <item>Home</item>
+        <item>Detailed View</item>
+        <item>Settings</item>
+
+    </string-array>
 </resources>
