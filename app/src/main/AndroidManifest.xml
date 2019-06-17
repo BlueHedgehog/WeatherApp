@@ -11,6 +11,9 @@
         android:roundIcon="@drawable/cloudyday3"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".DetailedActivity"></activity>
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".MapsActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

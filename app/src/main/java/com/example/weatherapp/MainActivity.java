@@ -1,5 +1,6 @@
 package com.example.weatherapp;
 
+import android.content.Intent;
 import android.media.Image;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -44,11 +45,14 @@ public class MainActivity extends AppCompatActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.settings_view) {
 
-            return true;
+            Intent intent = new Intent(this, SettingsActivity.class);
+            startActivity(intent);
+
         }
         if (id == R.id.map_view)
         {
-
+            Intent intent = new Intent(this, MapsActivity.class);
+            startActivity(intent);
             return true;
         }
 
